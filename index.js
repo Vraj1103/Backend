@@ -1,7 +1,10 @@
 // const name = "Vraj";
 // console.log(name);
 
-// const fs = require("fs");
+const fs = require("fs");
+
+// fs.mkdirSync("fsAsync");
+fs.writeFileSync("fsAsync/index.js","Hello world");
 //  fs.writeFileSync("read.txt", "Welcome to Node.js");
 //  fs.appendFileSync("read.txt", " This is a new line");
 
