@@ -30,4 +30,4 @@ const fs = require ("fs");
 // fs.unlinkSync("Vraj/mybio.txt");
 
 // delete the folder
-fs.rmdirSync("Vraj");
+// fs.rmdirSync("Vraj");
