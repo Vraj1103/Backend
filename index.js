@@ -1,7 +1,7 @@
 // const name = "Vraj";
 // console.log(name);
 
-const fs = require("fs");
+// const fs = require("fs");
 
 // fs.mkdirSync("fsAsync");
 // fs.writeFileSync("fsAsync/index.js","Hello world");
@@ -20,3 +20,9 @@ const fs = require("fs");
 // })
 
 // fs.writeFileSync("OsModule/index.js","hello world");
+
+// fs.mkdir("PathModule",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFileSync("PathModule/path.js","hey!!");
