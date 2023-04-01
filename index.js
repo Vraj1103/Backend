@@ -14,3 +14,9 @@ const fs = require("fs");
 // console.log(org_data);
 
 // fs.renameSync("read.txt", "readwrite.txt");
+
+// fs.mkdirSync("OsModule",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFileSync("OsModule/index.js","hello world");
