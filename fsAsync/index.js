@@ -11,9 +11,11 @@ const fs = require("fs");
 //     console.log(err);
 // });
 
-fs.readFile("read1.txt","UTF-8",(err,data)=>{
-    console.log("Job Completed");
-    console.log(data);
-});
+// fs.readFile("read1.txt","UTF-8",(err,data)=>{
+//     console.log("Job Completed");
+//     console.log(data);
+// });
 
-// console.log(data);
+fs.writeFile("async.js","Hello world",(err)=>{
+    console.log(err);
+}) ;
