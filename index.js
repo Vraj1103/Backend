@@ -36,3 +36,11 @@ const fs = require("fs");
 // fs.writeFile("importExport/oper.js","hii",(err)=>{
 //     console.log(err);
 // })
+
+// fs.mkdir("npmMod",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFile("npmMod/index.js","Hello World",(err)=>{
+//     console.log(err);
+// })
