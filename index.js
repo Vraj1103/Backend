@@ -1,7 +1,7 @@
 // const name = "Vraj";
 // console.log(name);
 
-// const fs = require("fs");
+const fs = require("fs");
 
 // fs.mkdirSync("fsAsync");
 // fs.writeFileSync("fsAsync/index.js","Hello world");
@@ -26,3 +26,13 @@
 // })
 
 // fs.writeFileSync("PathModule/path.js","hey!!");
+
+// fs.mkdirSync("importExport");
+
+// fs.writeFile("importExport/index.js","hii",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFile("importExport/oper.js","hii",(err)=>{
+//     console.log(err);
+// })
