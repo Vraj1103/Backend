@@ -57,6 +57,11 @@ const fs = require("fs");
 //     console.log(err);
 // })
 
-fs.writeFile("httpserver/index.js","Hello world!",(err)=>{
-    console.log(err);
-})
+// fs.writeFile("httpserver/index.js","Hello world!",(err)=>{
+//     console.log(err);
+// })
+
+// fs.mkdir("JsonNodeJs",(err)=>{
+//     console.log(err);
+// })
+// fs.writeFileSync("JsonNodeJs/index.js","Helloooo!");

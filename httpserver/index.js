@@ -1,23 +1,23 @@
 // Hello world!
 
-const  http = require("http");
+// const  http = require("http");
 
-const server = http.createServer((req,res)=>{
- if(req.url==="/"){
- res.end("Hello from the other side!");
-}
- else if (req.url==="/about"){
-    res.end("Hello from the about page");
- }
- else if (req.url==="/contact"){
-    res.end("Hello from the contact page");
- }
- else{
-    res.writeHead(404,{"content-type":"text-html"});
-    res.end("404 Error Page!");
- }
-});
+// const server = http.createServer((req,res)=>{
+//  if(req.url==="/"){
+//  res.end("Hello from the other side!");
+// }
+//  else if (req.url==="/about"){
+//     res.end("Hello from the about page");
+//  }
+//  else if (req.url==="/contact"){
+//     res.end("Hello from the contact page");
+//  }
+//  else{
+//     res.writeHead(404,{"content-type":"text-html"});
+//     res.end("404 Error Page!");
+//  }
+// });
 
-server.listen(8000,"127.0.0.1",()=>{ 
-    console.log("listening");
-});
+// server.listen(8000,"127.0.0.1",()=>{ 
+//     console.log("listening");
+// });
