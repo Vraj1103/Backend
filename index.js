@@ -52,3 +52,11 @@ const fs = require("fs");
 // fs.writeFile("ModWrapperFun/index.js","Hellooooo",(err)=>{
 //     console.log(err);
 // });
+
+// fs.mkdir("httpserver",(err)=>{
+//     console.log(err);
+// })
+
+fs.writeFile("httpserver/index.js","Hello world!",(err)=>{
+    console.log(err);
+})
