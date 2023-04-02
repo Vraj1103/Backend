@@ -44,3 +44,11 @@ const fs = require("fs");
 // fs.writeFile("npmMod/index.js","Hello World",(err)=>{
 //     console.log(err);
 // })
+
+// fs.mkdir("ModWrapperFun",(err)=>{
+//     console.log(err);
+// });
+
+// fs.writeFile("ModWrapperFun/index.js","Hellooooo",(err)=>{
+//     console.log(err);
+// });
