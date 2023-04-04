@@ -71,3 +71,15 @@ const fs = require("fs");
 // })
 
 // fs.writeFileSync("EventMod/index.js","Get LOST");
+
+// fs.mkdir("StreamModule",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFile("StreamModule/index.js","Let's Stream it ",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFile("StreamModule/input.txt","Heyyyyy",(err)=>{
+//     console.log(err);
+// })
