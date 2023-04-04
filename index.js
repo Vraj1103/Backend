@@ -65,3 +65,9 @@ const fs = require("fs");
 //     console.log(err);
 // })
 // fs.writeFileSync("JsonNodeJs/index.js","Helloooo!");
+
+// fs.mkdir("EventMod",(err)=>{
+//     console.log(err);
+// })
+
+// fs.writeFileSync("EventMod/index.js","Get LOST");
